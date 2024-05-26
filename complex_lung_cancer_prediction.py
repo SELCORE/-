@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # CSV 데이터를 데이터프레임으로 로드
-data_path = '/Users/kimdonghyun/Documents/의공학/data.csv'
+data_path = 'your file/data.csv'
 data = pd.read_csv(data_path)
 
 # 필요없는 열 제거 (이름과 성)
